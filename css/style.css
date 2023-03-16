@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Lato:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200;300;400;500&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&family=Quicksand&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Lato:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200;300;400;500&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&family=Quicksand&family=Raleway&display=swap");
+
+:root {
+  --font-family-primary: "Poppins", sans-serif;
+  --font-family-secondary: "Playfair Display", serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(221, 221, 221, 0.795);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(185, 185, 55);
+  border-radius: 10px;
+}
+
+header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.774)),
+    url(../images/background.jpg);
+  /* background-position: center center; */
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position-x: center;
+}
+
+.navbar {
+  padding-top: 20px;
+  font-family: var(--font-family-primary);
+}
+
+.nav-item {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.main-logo {
+  font-size: 2rem;
+  font-family: var(--font-family-secondary);
+  font-weight: 700;
+}
+
+.hero-section {
+  height: 90vh;
+  color: white;
+}
+
+.hero-section h1 {
+  font-size: 4.6rem;
+  font-family: var(--font-family-secondary);
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.hero-section p {
+  font-family: var(--font-family-primary);
+  font-size: 0.9rem;
+  max-width: 800px;
+  margin: 15px auto;
+  line-height: 1.5rem;
+}
+
+.aboutus-section {
+  color: white;
+  background-color: rgb(36, 36, 36);
+}
+
+.aboutus-section h3,
+.services-section h1,
+h4,
+.book-section h1,
+.testinomials h1,
+.work-section h1,
+.news-section h1,
+h5,
+footer h5 {
+  font-family: var(--font-family-secondary);
+}
+
+.aboutus-section p,
+.services-section p,
+.book-section p,
+.testinomials p,
+.news-section p,
+footer p {
+  font-family: var(--font-family-primary);
+}
+
+.services-section {
+  min-height: 100vh;
+  color: white;
+  background-color: rgb(22, 22, 22);
+}
+
+.services-section h2 {
+  color: rgb(185, 185, 55);
+}
+
+.book-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.74)),
+    url(../images/man_customer.jpg);
+  min-height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+form {
+  background-color: white;
+  padding: 5px;
+}
+
+form .form-control {
+  border-radius: 0;
+}
+
+form .form-control:hover {
+  box-shadow: none;
+  border-color: rgb(185, 185, 55);
+}
+
+.book-section input {
+  font-size: 0.8rem;
+}
+
+.testinomials {
+  background-color: rgb(22, 22, 22);
+}
+
+.testinomials p {
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.carousel-background {
+  min-height: 60vh;
+  width: 100%;
+}
+
+.carousel-caption {
+  bottom: 5rem;
+}
+
+.work-section {
+  min-height: 100vh;
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
+
+.news-section {
+  min-height: 100vh;
+  background-color: rgb(36, 36, 36);
+}
+
+.news-section p {
+  font-size: 0.8rem;
+  padding: 5px 0px;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  border-radius: 0;
+}
+
+.btn-brand {
+  background-color: rgb(185, 185, 55);
+  color: white;
+}
+
+.btn-brand:hover {
+  background-color: rgb(160, 160, 37);
+  color: white;
+}
+
+footer {
+  min-height: 60vh;
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-section p {
+    font-size: 0.8rem;
+  }
+}
